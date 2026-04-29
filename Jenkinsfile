@@ -7,7 +7,7 @@ stages {
 
 stage('CHECKOUT') {
 steps {
-git 'your_github_repo_link'
+git 'https://github.com/IreneAisha10/maven2.git'
 }
 }
 stage('Build') {
